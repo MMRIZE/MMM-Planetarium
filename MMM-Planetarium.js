@@ -66,8 +66,8 @@ Module.register("MMM-Planetarium", {
 
   run: function () {
     const options = {
+      ...this.config,
       id: "PLNTRM_" + this.identifier,
-      ...this.config
     }
     this.planetarium = S.virtualsky(options)
     
