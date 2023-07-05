@@ -1,0 +1,9 @@
+/* stylelint-disable selector-class-pattern */
+.PLNTRM {
+  width: 100%;
+  height: 100%;
+}
+
+.PLNTRM .virtualskybutton {
+  display: none;
+}
