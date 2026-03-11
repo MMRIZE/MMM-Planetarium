@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const config = {
 	address: "localhost",
 	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],

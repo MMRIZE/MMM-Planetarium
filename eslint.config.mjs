@@ -14,4 +14,5 @@ export default defineConfig([
     languageOptions: { globals: globals.browser, sourceType: "module" }
   },
   { files: ["**/*.md"], plugins: { markdown }, language: "markdown/gfm", extends: ["markdown/recommended"] },
+  { files: ["config.demo.js", "changelog.config.js"], rules: { "no-undef": "off" } },
 ]);
