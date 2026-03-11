@@ -1,6 +1,6 @@
 {
   "name": "mmm-planetarium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for MagicMirror² to make your mirror to a planetarium.",
   "type": "commonjs",
   "main": "MMM-Planetarium.js",
