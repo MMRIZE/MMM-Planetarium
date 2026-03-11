@@ -2,12 +2,13 @@
   "name": "mmm-planetarium",
   "version": "1.0.1",
   "description": "A module for MagicMirror² to make your mirror to a planetarium.",
+  "type": "commonjs",
   "main": "MMM-Planetarium.js",
-  "type": "module",
   "scripts": {
-	"demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-Planetarium/config.demo.js node --run start:dev",
+    "demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-Planetarium/config.demo.js node --run start:dev",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
+    "release": "commit-and-tag-version --config ./changelog.config.js",
     "test": "node --run lint"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "@eslint/css": "^1.0.0",
     "@eslint/js": "^10.0.1",
     "@eslint/markdown": "^7.5.1",
+    "commit-and-tag-version": "^12.6.1",
     "eslint": "^10.0.3",
     "globals": "^17.4.0"
   }
