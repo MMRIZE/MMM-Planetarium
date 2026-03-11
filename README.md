@@ -48,6 +48,10 @@ All options of **VirtualSky** would be available (even keyboard shortcuts..)
 
 - See. https://slowe.github.io/VirtualSky/#options There are also some examples in that page.
 
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
 ## Author
 
 - Seongnoh Yi (eouia0819@gmail.com)
