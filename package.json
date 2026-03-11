@@ -5,6 +5,7 @@
   "main": "MMM-Planetarium.js",
   "type": "module",
   "scripts": {
+	"demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-Planetarium/config.demo.js node --run start:dev",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "test": "node --run lint"
