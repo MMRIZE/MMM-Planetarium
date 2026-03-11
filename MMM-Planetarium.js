@@ -21,7 +21,6 @@ Module.register("MMM-Planetarium", {
     live: true,
     meridian: true,
     gridlines_gal: true,
-    showstartlabels: true,
     ground: true,
     transparent: true,
     cardinalpoints: true,
@@ -70,7 +69,7 @@ Module.register("MMM-Planetarium", {
       id: "PLNTRM_" + this.identifier,
     }
     this.planetarium = S.virtualsky(options)
-    
+
     if (this.config.paninterval > 0) {
       this.pan()
     }
